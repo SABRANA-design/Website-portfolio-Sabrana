@@ -43,9 +43,9 @@ export default function PortfolioSection({ language }: Props) {
     },
     {
       id: 4,
-      title: language === 'id' ? 'ganteng nya basr' : 'basr handsome',
+      title: language === 'id' ? 'ni orang kenapa yak?' : 'ni orang kenapa yak?',
       category: language === 'id' ? 'Web Design' : 'Web Design',
-      image: '/pantai2.jpeg',
+      image: '/radit.jpeg',
       description:
         language === 'id'
           ? 'Website profesional dengan animasi smooth dan performa tinggi'
