@@ -19,23 +19,9 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: 'SABRANA - Creative Design Portfolio',
-  description: 'Professional designer specializing in UI/UX, branding, and social media design. Elevate your brand with premium design services.',
-  generator: 'v0.app',
+  description: 'Professional designer specializing in UI/UX, branding, and social media design.',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
+    icon: '/logo_sabrana.png',
     apple: '/logo_sabrana.png',
   },
 }
