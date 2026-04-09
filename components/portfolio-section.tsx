@@ -13,7 +13,7 @@ export default function PortfolioSection({ language }: Props) {
   const projects = [
     {
       id: 1,
-      title: language === 'id' ? 'Aplikasi E-Commerce' : 'E-Commerce App',
+      title: language === 'id' ? 'foto orang ganteng' : 'foto handsome man',
       category: language === 'id' ? 'UI/UX Design' : 'UI/UX Design',
       image: '/gwe.jpg',
       description:
@@ -23,7 +23,7 @@ export default function PortfolioSection({ language }: Props) {
     },
     {
       id: 2,
-      title: language === 'id' ? 'Identitas Brand Fashion' : 'Fashion Brand Identity',
+      title: language === 'id' ? 'kursi 3d' : '3d chair',
       category: language === 'id' ? 'Branding' : 'Branding',
       image: '/kursi3d.jpg',
       description:
@@ -33,7 +33,7 @@ export default function PortfolioSection({ language }: Props) {
     },
     {
       id: 3,
-      title: language === 'id' ? 'Kampanye Media Sosial' : 'Social Media Campaign',
+      title: language === 'id' ? 'pantai midodaren' : 'midodaren beach',
       category: language === 'id' ? 'Desain Media Sosial' : 'Social Media Design',
       image: '/pantai1.jpeg',
       description:
@@ -43,7 +43,7 @@ export default function PortfolioSection({ language }: Props) {
     },
     {
       id: 4,
-      title: language === 'id' ? 'Website Perusahaan' : 'Corporate Website',
+      title: language === 'id' ? 'ganteng nya basr' : 'basr handsome',
       category: language === 'id' ? 'Web Design' : 'Web Design',
       image: '/pantai2.jpeg',
       description:
@@ -53,7 +53,7 @@ export default function PortfolioSection({ language }: Props) {
     },
     {
       id: 5,
-      title: language === 'id' ? 'Aplikasi Mobile' : 'Mobile App',
+      title: language === 'id' ? 'pantai ngetun' : 'ngetun beach',
       category: language === 'id' ? 'UI/UX Design' : 'UI/UX Design',
       image: '/pantai3.jpeg',
       description:
@@ -63,7 +63,7 @@ export default function PortfolioSection({ language }: Props) {
     },
     {
       id: 6,
-      title: language === 'id' ? 'Aset Branding' : 'Branding Assets',
+      title: language === 'id' ? 'basr ganteng banget' : 'basr good',
       category: language === 'id' ? 'Branding' : 'Branding',
       image: '/pantai4.jpeg',
       description:
