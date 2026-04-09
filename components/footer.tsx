@@ -121,7 +121,7 @@ export default function ContactSection({ language }: Props) {
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-foreground/60 text-sm">
             <p>
-              © 2024 SABRANA{' '}
+              © 2026 SABRANA{' '}
               {language === 'id' ? '- Desain Profesional untuk Brand Anda' : '- Professional Design for Your Brand'}
             </p>
             <div className="flex gap-6">
