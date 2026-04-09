@@ -31,8 +31,8 @@ export default function ContactSection({ language }: Props) {
 
  const whatsappLink = `https://wa.me/6287891276630?text=${encodeURIComponent(
   language === 'id'
-    ? 'Halo Sabrana, saya ingin membuat project desain...'
-    : 'Hi Sabrana, I want to create a design project...'
+    ? 'Halo Sabrana studio, saya ingin membuat project desain...'
+    : 'Hi Sabrana studio, I want to create a design project...'
 )}`;
 
   return (
@@ -117,7 +117,7 @@ export default function ContactSection({ language }: Props) {
                 type="submit"
                 className="w-full px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300"
               >
-                {language === 'id' ? 'Kirim Pesan' : 'Send Message'}
+                {language === 'id' ? 'sementara hubungi via whatsapp dulu' : 'For now, please contact via WhatsApp first'}
               </button>
             </form>
           </div>
