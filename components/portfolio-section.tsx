@@ -13,7 +13,7 @@ export default function PortfolioSection({ language }: Props) {
   const projects = [
     {
       id: 1,
-      title: language === 'id' ? 'foto orang ganteng' : 'foto handsome man',
+      title: language === 'id' ? 'Aplikasi E-Commerce' : 'E-Commerce App',
       category: language === 'id' ? 'UI/UX Design' : 'UI/UX Design',
       image: '/gwe.jpg',
       description:
@@ -23,7 +23,7 @@ export default function PortfolioSection({ language }: Props) {
     },
     {
       id: 2,
-      title: language === 'id' ? 'kursi 3d' : '3d chair',
+      title: language === 'id' ? 'Identitas Brand Fashion' : 'Fashion Brand Identity',
       category: language === 'id' ? 'Branding' : 'Branding',
       image: '/kursi3d.jpg',
       description:
@@ -33,7 +33,7 @@ export default function PortfolioSection({ language }: Props) {
     },
     {
       id: 3,
-      title: language === 'id' ? 'pantai midodaren' : 'midodaren beach',
+      title: language === 'id' ? 'Kampanye Media Sosial' : 'Social Media Campaign',
       category: language === 'id' ? 'Desain Media Sosial' : 'Social Media Design',
       image: '/pantai1.jpeg',
       description:
@@ -43,9 +43,9 @@ export default function PortfolioSection({ language }: Props) {
     },
     {
       id: 4,
-      title: language === 'id' ? 'ni orang kenapa yak?' : 'ni orang kenapa yak?',
+      title: language === 'id' ? 'Website Perusahaan' : 'Corporate Website',
       category: language === 'id' ? 'Web Design' : 'Web Design',
-      image: '/radit.jpeg',
+      image: '/pantai2.jpeg',
       description:
         language === 'id'
           ? 'Website profesional dengan animasi smooth dan performa tinggi'
@@ -53,7 +53,7 @@ export default function PortfolioSection({ language }: Props) {
     },
     {
       id: 5,
-      title: language === 'id' ? 'pantai ngetun' : 'ngetun beach',
+      title: language === 'id' ? 'Aplikasi Mobile' : 'Mobile App',
       category: language === 'id' ? 'UI/UX Design' : 'UI/UX Design',
       image: '/pantai3.jpeg',
       description:
@@ -63,7 +63,7 @@ export default function PortfolioSection({ language }: Props) {
     },
     {
       id: 6,
-      title: language === 'id' ? 'basr ganteng banget' : 'basr good',
+      title: language === 'id' ? 'Aset Branding' : 'Branding Assets',
       category: language === 'id' ? 'Branding' : 'Branding',
       image: '/pantai4.jpeg',
       description:
