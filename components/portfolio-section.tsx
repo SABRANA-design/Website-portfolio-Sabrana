@@ -55,7 +55,7 @@ export default function PortfolioSection({ language }: Props) {
       id: 5,
       title: language === 'id' ? 'Aplikasi Mobile' : 'Mobile App',
       category: language === 'id' ? 'UI/UX Design' : 'UI/UX Design',
-      image: '/pantai3.jpeg',
+      image: '/webdesign.png',
       description:
         language === 'id'
           ? 'Desain aplikasi mobile untuk startup teknologi dengan interface yang intuitif'
