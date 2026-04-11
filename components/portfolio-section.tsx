@@ -45,7 +45,7 @@ export default function PortfolioSection({ language }: Props) {
       id: 4,
       title: language === 'id' ? 'Website Perusahaan' : 'Corporate Website',
       category: language === 'id' ? 'Web Design' : 'Web Design',
-      image: '/pantai2.jpeg',
+      image: '/webdesign.png',
       description:
         language === 'id'
           ? 'Website profesional dengan animasi smooth dan performa tinggi'
@@ -55,7 +55,7 @@ export default function PortfolioSection({ language }: Props) {
       id: 5,
       title: language === 'id' ? 'Aplikasi Mobile' : 'Mobile App',
       category: language === 'id' ? 'UI/UX Design' : 'UI/UX Design',
-      image: '/webdesign.png',
+      image: '/pantai3.jpeg',
       description:
         language === 'id'
           ? 'Desain aplikasi mobile untuk startup teknologi dengan interface yang intuitif'
